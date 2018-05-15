@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+	<head>
+		<title>
+			Problem 1
+		</title>
+		<link rel = "stylesheet"
+		type = "text/css"
+		href = "problem1.css" />
+	</head>
+	<body>
+		<form method= "get"
+		action = "user.php">
+		<fieldset>
+			
+			<label>
+				Please type your name:
+			</label>
+			<input type= "text"
+			name = "userName"
+			value = "" />
+			
+			<label>
+				Please select a time of day:
+			</label>
+			<select name = "action">
+				<option value = "morning">morning</option>
+				<option value = "afternoon">afternoon</option>
+				<option value = "evening">evening</option>
+			</select>
+			
+			<label>
+				Please enter your plans for the day:
+			</label>
+			<input type= "text"
+			name = "userPlans"
+			value = "" />
+			
+			<input type= "submit" />
+		</fieldset></form>
+	</body>
+</html>
